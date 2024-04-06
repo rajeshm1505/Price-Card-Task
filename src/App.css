@@ -1,0 +1,67 @@
+#root {
+  max-width: 1000px;
+  padding: 2rem;
+  
+}
+
+.container{
+  border:  1px solid black;
+  width:  250px;
+  height: 470px;
+  margin: 10px;
+  border-radius:  10px;
+  background-color: white;
+
+}
+.type {
+  font-weight: lighter;
+  text-align:  center;
+  opacity: 0.5; 
+  
+}
+.price{
+  font-weight: bolder;
+  text-align:  center;
+}
+
+.text-uppercase{
+  text-transform: uppercase;
+}
+button{
+  border: none;
+  background-color: RGB(0,191,255);
+  width: 200px;
+  height : 30px;
+  border-radius: 10px;
+   margin-left: 20px;
+   color: white;
+   font-weight: bolder;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: RGB(30,144,255);
+}
+
+.All-price-card
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color:RGB(30,144,255);
+  margin-left: 30px;
+}
+.text-margin{
+  margin-left: 20px; /* Adjust the value as needed */
+  margin-right:10px;
+}
+
+
+
+.Enabled {
+  opacity:  normal;
+}
+
+.Disabled {
+  opacity:  0.5;
+}
